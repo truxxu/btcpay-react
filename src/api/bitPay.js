@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const bitPayRequest = axios.create({
+const bitPay = axios.create({
   baseURL: "https://bitpay.com",
   headers: {
     "Content-Type": "application/json",
@@ -8,4 +8,4 @@ const bitPayRequest = axios.create({
   },
 });
 
-export default bitPayRequest;
+export default bitPay;

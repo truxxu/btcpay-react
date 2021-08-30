@@ -21,4 +21,4 @@ const useBitPay = () => {
   return [getRate, results, isLoading];
 };
 
-export default useBitPay;
+export { useBitPay };
